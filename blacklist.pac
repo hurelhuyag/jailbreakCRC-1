@@ -338,7 +338,7 @@ function FindProxyForURL(url, host) {
         "192.185.4.118:80");
 	
 	
-    for(var i=0; i&lt;domainList.length; i++) {
+    for(var i=0; i<domainList.length; i++) {
         if ( localHostOrDomainIs(host, domainList[i]) ) {
             return "PROXY "+ipList[i];
         }
