@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0076)https://raw.githubusercontent.com/tugstugi/jailbreakCRC/master/blacklist.pac -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">function FindProxyForURL(url, host) {
+function FindProxyForURL(url, host) {
 
     var domainList = new Array(
         "1kinouzeh.blogspot.com",
@@ -347,4 +345,4 @@
     }
     
     return "DIRECT";
-}</pre></body></html>
+}
