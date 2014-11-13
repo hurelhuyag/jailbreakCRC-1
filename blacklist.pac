@@ -1,6 +1,7 @@
 function FindProxyForURL(url, host) {
 
     var domainList = new Array(
+    	"mongolbox13.com"
         "1kinouzeh.blogspot.com",
         "888kino.tk",
         "88kino.blogspot.se",
@@ -170,6 +171,7 @@ function FindProxyForURL(url, host) {
     );
 
     var ipList = new Array(
+    	"104.28.14.72:80"
         "173.194.122.12:80",
         "195.20.34.1:80:80",
         "173.194.122.11:80",
